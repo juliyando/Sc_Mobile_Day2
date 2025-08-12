@@ -128,7 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text("Juliyando Akbar", style: TextStyle(fontSize: 20)),
+                Text("Juliyando Akbar", style: GoogleFonts.michroma(fontSize: 20)),
                 Icon(Icons.edit, color: Colors.grey),
               ],
             ),
@@ -143,7 +143,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text("08163264933", style: TextStyle(fontSize: 20)),
+                Text("08163264933", style: GoogleFonts.michroma(fontSize: 20)),
                 Icon(Icons.edit, color: Colors.grey),
               ],
             ),
@@ -161,7 +161,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 Expanded(
                   child: Text(
                     "Hanya orang random yang sedang lewat dan melihat",
-                    style: TextStyle(fontSize: 20),
+                    style: GoogleFonts.michroma(fontSize: 20),
                     overflow: TextOverflow.ellipsis,
                   ),
                 ),
